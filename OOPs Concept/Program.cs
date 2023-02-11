@@ -11,9 +11,12 @@ namespace OOPs_Concept
     {
         static void Main(string[] args)
         {
-            Encapsulation account = new Encapsulation();
-            account.AccountNumber = 342667;
-            Console.WriteLine(account.AccountNumber);
+            //Encapsulation account = new Encapsulation();
+            //account.AccountNumber = 342667;
+            //Console.WriteLine(account.AccountNumber);
+            Dog dog = new Dog();
+            dog.Animal();
+            Console.WriteLine(dog.number);
             Console.ReadLine();
         }
     }             
