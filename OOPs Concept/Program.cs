@@ -14,9 +14,12 @@ namespace OOPs_Concept
             //Encapsulation account = new Encapsulation();
             //account.AccountNumber = 342667;
             //Console.WriteLine(account.AccountNumber);
-            Dog dog = new Dog();
-            dog.Animal();
-            Console.WriteLine(dog.number);
+            //Dog dog = new Dog();
+            //dog.Animal();
+           // Console.WriteLine(dog.number);
+           Car car = new Car();
+            car.Ab();
+            car.AC();
             Console.ReadLine();
         }
     }             
